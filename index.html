@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twice Survey</title>
+    <link rel="stylesheet" type="text/css" href="style.css" >
+</head>
+<body>
+    <h1 id="title">Twice Survey Form</h1>
+    <p id="description">Please fill the form, thank you.</p>
+    <form id="survey-form">
+        <label for="name" id="name-label">
+            Name
+            <input type="text" id="name" placeholder="Enter your name">
+        </label>
+        <label for="email" id="email-label">
+            Email
+            <input type="email" id="email" placeholder="Enter your email">
+        </label>
+        <label for="number" id="number-label">
+            Age
+            <input type="number" id="number" placeholder="How old are you?" min="15" max="40">
+        </label>
+        <label for="dropdown" id="dropdown-label">
+            How do you know Twice?
+            <select id="dropdown">
+                <option>Youtube</option>
+                <option>Twitter</option>
+            </select>    
+        </label>
+        <label for="member" id="member-label">Who is your bias?</label>
+            <input type="radio" name='member'/>Nayeon 
+            <input type="radio" name='member'/>Jeongyeon 
+            <input type="radio" name='member'/>Momo 
+            <input type="radio" name='member'/>Sana 
+            <input type="radio" name='member'/>Jihyo 
+            <input type="radio" name='member'/>Mina 
+            <input type="radio" name='member'/>Dahyun 
+            <input type="radio" name='member'/>Chaeyoung 
+            <input type="radio" name='member'/>Tzuyu 
+        <br><br>
+        <label for="album" id="album-label">
+            which one is your favorite album?
+            <input type="checkbox" value="cry-for-me"> Cry For Me
+            <input type="checkbox" value="eyes-wide-open"> Eyes Wide Open
+            <input type="checkbox" value="more-and-more"> More And More
+            <input type="checkbox" value="feel-special"> Feel Special 
+        </label>
+    </form>
+</body>
+</html>
